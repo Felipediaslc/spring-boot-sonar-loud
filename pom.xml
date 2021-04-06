@@ -19,14 +19,13 @@
 		<java.version>1.8</java.version>
 
 		<sonar.projectKey>narmetaa_spring-boot-crud-demo</sonar.projectKey>
-		<sonar.organization>narmetaa</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>7bd820f98caccbfc747da248a9fdb9f09c256022</sonar.login>
+		<sonar.host.url>http://ip172-18-0-18-c1m9mbpbqvp0009gjdn0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>e6cb101f50ef6e7c0aed6f3254742be3358c197e</sonar.login>
 
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
+		<!-- <sonar.organization>narmetaa</sonar.organization> https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
 		<dependency>
 			<groupId>org.sonarsource.sonarqube</groupId>
 			<artifactId>sonar-plugin-api</artifactId>
